@@ -1,0 +1,29 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwu788/RESTful-API.git"
+  },
+  "author": "Johnny WU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwu788/RESTful-API/issues"
+  },
+  "homepage": "https://github.com/jwu788/RESTful-API#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  }
+}
