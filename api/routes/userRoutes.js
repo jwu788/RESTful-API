@@ -10,4 +10,7 @@ module.exports = function(app){
         .get(UserController.get_user)
         .put(UserController.update_user)
         .delete(UserController.delete_user);
+    
+    app.route('/login')
+        .post(UserController.login_user);
 };
